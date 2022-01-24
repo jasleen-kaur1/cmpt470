@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* General Styling */
+
+address, article, aside, blockquote, body, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, ol, p, section, span, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+   	background: transparent;
+   	-webkit-box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+   	box-sizing: border-box;
+}
+
+html {
+	background-color: #3DCCC7;
+	height: 100vh;
+}
+
+/* Body Styles */
+
+body {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	font-family:"Trebuchet MS", "Gill Sans", Verdana, sans-serif;
+	font-size: medium;
+	min-height: 100vh;
+	box-shadow: 0px 4px 25px 15px rgba(0,0,0,0.75);
+}
+
+body > header > img {
+	display: block;
+	width: 100%;
+}
+
+body cite{
+	font-weight:bold;
+	font-style: italic;
+}
+
+/* Article Styles */
+article {
+	float: left;
+	width: 57%;
+	margin: 20px;
+}
+
+article > h1 {
+	font-size: 1.5em;
+	margin-bottom: 0px;
+}
+
+article > img {
+	display: block;
+  	width: 100%;
+}
+
+article p {
+	margin: 20px 0;
+}
+
+/* Aside Styles*/
+
+aside {
+	float: right;
+	width: 35%;
+	margin: 20px 20px 0;
+}
+
+aside > h1{
+	font-size: 1.2em;
+}
+
+aside p {
+	margin: 20px 0;
+}
+
+aside code {
+	display:block;
+	font-family: "Times New Roman", Georgia, "Gill Sans", monospace;
+  	padding-left: 10px;
+	background-color: #C4FFF9;
+	line-height: 20px;
+}
+
+/* Nav Styles */
+
+nav {
+	float: right;
+	width: 35%;
+	display:block;
+	margin: 0px 20px;
+	background-color: #9CEAEF;
+}
+
+nav > h1{
+	font-size: 1.2em;
+	padding-top:3px;
+	padding-left:5px;
+}
+
+nav > ul {
+	padding: 15px 0 15px 50px;
+}
+
+nav a:link {
+	text-decoration: none;
+	line-height: 30px;
+}
+
+/* Footer Styles */
+
+footer {
+	clear: both;
+	background-color: #00203fff;
+	line-height: 30px;
+	font-weight:bold;
+	color:white;
+	text-align: center;
+}
+
+
